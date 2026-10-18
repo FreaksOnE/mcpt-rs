@@ -1,0 +1,15 @@
+[package]
+name = "mcpt-rs"
+version = "0.1.0"
+edition = "2024"
+authors = ["FreaksOnE"]
+description = "Monte-Carlo permutation tests for OHLC price data: shuffle bars while preserving the distribution of gap and intrabar moves"
+license = "MIT"
+repository = "https://github.com/FreaksOnE/mcpt-rs"
+keywords = ["monte-carlo", "permutation", "ohlc", "trading", "statistics"]
+categories = ["finance", "science", "mathematics", "algorithms"]
+readme = "README.md"
+
+[dependencies]
+rand = "0.10.3"
+rust_decimal = { version = "1.43.0" }
