@@ -13,4 +13,4 @@ readme = "README.md"
 
 [dependencies]
 rand = "0.10.3"
-rust_decimal = { version = "1.43.0" }
+rust_decimal = { version = "1.43.0", features = ["macros"] }
