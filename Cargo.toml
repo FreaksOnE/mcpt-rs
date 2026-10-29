@@ -2,6 +2,7 @@
 name = "mcpt-rs"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85"
 authors = ["FreaksOnE"]
 description = "Monte-Carlo permutation tests for OHLC price data: shuffle bars while preserving the distribution of gap and intrabar moves"
 license = "MIT"
