@@ -1,9 +1,11 @@
 use rust_decimal::Decimal;
 
-/// An OHLC price bar: the four prices [`get_permutation`] reads and rewrites.
+/// An OHLC price bar: the four prices [`crate::get_permutation`] reads and
+/// rewrites.
 ///
-/// Implement it on any record type; [`get_permutation`] touches only these
-/// eight methods, so the other fields of the record survive a permutation.
+/// Implement it on any record type; [`crate::get_permutation`] touches only
+/// these eight methods, so the other fields of the record survive a
+/// permutation.
 pub trait Bar {
     /// Open price of the bar.
     fn get_open(&self) -> Decimal;
